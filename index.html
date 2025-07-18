@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+
+        .card {
+        /* display: flex; */
+        width: 50%;
+        margin: 10rem auto;
+        display: grid;
+        grid-template-columns: 26% 74%;
+        align-items: start;
+        justify-content: center;
+        border: 1px solid orange;
+
+    }
+
+    .card1 img {
+        width: 47px;
+        height: auto;
+    }
+
+    .card2 {
+        padding: 40px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card1 {
+           border: 2px solid orange;
+           height: 60%;
+           margin-top: -40px;
+           background-color: #fff;
+           box-shadow: 29px 0 0 10px #fff, 29px 0 0 10px #fff;),
+        0 -10px 0 8px #fff,1);
+           margin-left: -1.2px;
+           position: relative;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-wrap: wrap;
+    }
+
+    .card1::after {
+          content: "";
+        position: absolute;
+        left: -2px;
+        bottom: 0;
+        width: 2px;
+        height: 40%;
+        background-color: #fff ;
+        transition: var(--wdtBaseTransition);
+        -webkit-transition: var(--wdtBaseTransition);
+    }
+  </style>
+  <body>
+    <div class="cards">
+      <div class="card">
+        <div class="card1">
+          <img src="voiture.png" alt="" />
+        </div>
+        <div class="card2">
+          <h3>Professional</h3>
+          <h2>Executive Staff</h2>
+          <p class="desc">
+            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Donec vitae sapien ut libero venenatis faucibus.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card1">
+          <img src="voiture.png" alt="" />
+        </div>
+        <div class="card2">
+          <h3>Next-Gen</h3>
+          <h2>Innovative Solutions</h2>
+          <p class="desc">
+            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Donec vitae sapien ut libero venenatis faucibus.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card1">
+          <img src="voiture.png" alt="" />
+        </div>
+        <div class="card2">
+          <h3>Topnotch</h3>
+          <h2>Quality Services</h2>
+          <p class="desc">
+            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Donec vitae sapien ut libero venenatis faucibus.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card1">
+          <img src="voiture.png" alt="" />
+        </div>
+        <div class="card2">
+          <h3>Enhanced</h3>
+          <h2>Privacy and Safety</h2>
+          <p class="desc">
+            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Donec vitae sapien ut libero venenatis faucibus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
